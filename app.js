@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const _ = require("lodash");
 
-mongoose.connect("mongodb://localhost:27017/todolistDB", {
+mongoose.connect("mongodb+srv://admin-saloni:4a6Gcru5rAd9Xjc@cluster0.zkxxg.mongodb.net/todolistDB", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
