@@ -1,6 +1,10 @@
 
 # dependecies
 /node_modules
+npm-debug.log
+.DS_Store
+/*.env
 
 # rough
 rough.txt
+
