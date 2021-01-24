@@ -127,8 +127,13 @@ app.get("/:listName", function (req, res) {
   });
 });
 
-app.listen(3000, function () {
-  console.log("server is active at port 3000");
+let port = process.env.PORT;
+if(port== null || port== ""){
+  port = 3000;
+}
+
+app.listen(port, function () {
+  console.log("server has started");
 });
 
 // Item.deleteMany({_id :["600a59684820123f887252d2", "600a59684820123f887252d3", "600a59684820123f887252d4"]}, function(err){
