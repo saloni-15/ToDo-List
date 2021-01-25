@@ -9,6 +9,11 @@ Deployed Website- https://murmuring-atoll-62974.herokuapp.com/
 ## Deployed using
 * MongoDB Atlas- For databse
 * Heroku
+-----------------------------------------
+![img](https://github.com/saloni-15/ToDo-List/blob/main/GIF/Capture.PNG)
+![gif](https://github.com/saloni-15/ToDo-List/blob/main/GIF/preview.gif)
+
+------------------------------------
 
 ## Built using
 * Javascript
